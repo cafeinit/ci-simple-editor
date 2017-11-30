@@ -1,0 +1,35 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "CafeInit Simple Editor example",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --open --hot",
+    "build": "webpack --progress --hide-modules",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cafeinit/ci-simple-editor.git"
+  },
+  "keywords": [
+    "CafeInit",
+    "CSS"
+  ],
+  "author": "burning",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/cafeinit/ci-simple-editor/issues"
+  },
+  "homepage": "https://github.com/cafeinit/ci-simple-editor#readme",
+  "dependencies": {
+    "ci-button": "^1.2.0",
+    "ci-form": "^1.0.1",
+    "ci-ui-base": "^1.1.0",
+    "vue": "^2.4.1"
+  },
+  "devDependencies": {
+    "gulp-pug": "^3.3.0",
+    "webpack-dev-server": "^2.5.1"
+  }
+}

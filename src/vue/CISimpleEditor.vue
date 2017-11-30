@@ -49,12 +49,16 @@ div.ci-simple-editor
  */
 
 import CIButton from 'ci-button'
+import CIForm from 'ci-form'
 
 export default {
   name: 'ci-simple-editor',
 
   components: {
-    'ci-button': CIButton
+    'ci-button': CIButton,
+    'ci-form-group': CIForm.CIFormGroup,
+    'ci-text': CIForm.CIText,
+    'ci-textarea': CIForm.CITextarea,
   },
 
   props: {
